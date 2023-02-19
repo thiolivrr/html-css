@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: 'luis';
+    src: url(../fonts/luis.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'gothic';
+    src: url(../fonts/akira.otf) format('opentype');
+}
+
+html {
+    background-color: beige;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    padding-top: 50px;
+    font-size: 10vw;
+    font-family: 'gothic';
+}
+
+header p {
+    padding-bottom: 50px;
+    font-family: cursive;
+    font-family: 'luis';
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    background-color: white;
+}
+
+aside {
+    background-color: black;
+    color: white;
+    padding-left: 30px;
+}
+
+aside p {
+    background-color: rgba(0, 0, 0, 0.26);
+    border-radius: 20px;
+    padding: 10px;
+    display: inline-block;
+}
+
+#aside1 {
+    background: crimson url(../imagens/gutsarmor.jpg) center / cover no-repeat fixed;
+}
+
+#aside2 {
+    background: crimson url(../imagens/eclipse.jpg) center / cover no-repeat fixed;
+}
+
+section, aside {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    font-family: 'luis';
+    line-height: 2em;
+    font-size: 3.5vw;
+    padding-left: 30px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-family: 'century gothic';
+    text-align: center;
+    padding: 10px;
+}

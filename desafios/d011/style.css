@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'school';
+    src: url(fonts/school.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'berserk';
+    src: url(fonts/CELTG___.TTF) format('truetype');
+}
+
+header {
+    background-color: black;
+    color: white;
+    height: 30vh;
+    position: relative;
+}
+
+header > div > h1 {
+    font-size: 5vw;
+    font-family: 'berserk';
+    margin: auto;
+}
+
+header > div > p {
+    font-size: 1.5vw;
+    padding-top: 10px;
+}
+
+header > div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#kentaro:hover {
+    text-decoration: underline;
+}
+
+
+
+div > p {
+    font-family: 'school';
+    font-size: 4vw;
+}
+
+#estrofe1 {
+    height: 1080px;
+    position: relative;
+}
+
+#pe1 {
+    position: absolute;
+    top: 25%;
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 4vw;
+}
+
+#estrofe2eimg {
+    background: purple url(images/moonguts.jpg) right / cover no-repeat fixed  ;
+    height: 1080px;
+    color: white;
+}
+
+#box1 {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: rgba(255, 255, 255, 0.24);
+    color: black;
+    height: 200px;
+    width: 800px;
+    height: 1000px;
+    display: table;
+}
+
+#e2p {
+    display: table-cell;
+    vertical-align: center;
+    font-size: 4vw;
+}
+
+#estrofe3e4 {
+    height: 1080px;
+}
+
+#estrofe5eimg {
+    position: relative;
+    background: purple url(images/guts.webp) left / cover no-repeat fixed  ;
+    height: 1080px;
+    color: white;
+}
+
+#box2 {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: rgba(0, 0, 0, 0.425);
+    height: 200px;
+    width: 800px;
+    height: 1000px;
+    font-size: 4vw;
+}
+
+#estrofe6e7 {
+    height: 1080px;
+}
+
+.p67 {
+    font-size: 4em;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1vw;
+    font-family: 'century gothic';
+}

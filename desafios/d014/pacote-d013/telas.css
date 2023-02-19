@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+img {
+    width: 265px;
+}
+
+button {
+    display: block;
+    width: 269px;
+    border-radius: 0px;
+    border: 1px solid black;
+    height: 50px;
+    background-color: red;
+    color: white;
+    margin: -3px;
+}
+
+button:hover {
+    background-color: rgba(255, 0, 0, 0.603);
+}

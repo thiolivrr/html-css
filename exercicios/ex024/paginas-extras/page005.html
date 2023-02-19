@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <style>
+        body {
+            background-color: blueviolet;
+            color: white;
+            font-family: 'century gothic';
+        }
+
+        a:visited {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <a href="#" onclick="clicou()">Clique em mim</a>
+    <div id="output"></div>
+
+    <script>
+        function clicou() {
+            s = window.document.getElementById("output")
+            s.innerHTML += '<p>You clicked!</p>'
+        }
+    </script>
+</body>
+</html>
