@@ -1,1 +1,6 @@
 @charset "UTF-8";
+
+body {
+    background-image: url(../imagensex026/cev-landscape.jpg);
+    background-position: center bottom;
+}
