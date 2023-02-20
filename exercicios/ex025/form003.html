@@ -8,13 +8,30 @@
 </head>
 <body>
     <h1>Form Test</h1>
-    <form action="cadastro.php" method="get" autocomplete="on">
+    <form method="get" autocomplete="on">
         <p>
             <label for="iname">Name</label>
             <input type="text"name="name" id="iname" required maxlength="30" placeholder="Full Name" autocomplete="name">
         </p>
         <p>
-            <label for="imedia">Média</label>
+            <label for="iaverage">Average</label>
+            <input type="number" name="average" id="iaverage" min="0" max="10" placeholder="0 to 10" step="0.5" value="5">
+        </p>
+        <p>
+            <label for="imon">School Year</label>
+            <input type="month" name="month" id="imon" value="2020-07">
+        </p>
+        <p>
+            <label for="iday">Test Day</label>
+            <input type="date" name="day" id="iday" value="2023-02-19">
+        </p>
+        <p>
+            <label for="ihour">Test Hour</label>
+            <input type="time" name="hour" id="ihour">
+        </p>
+        <p>
+            <input type="submit" value="Send">
+            <input type="reset" value="Clear">
         </p>
     </form>
 </body> 
