@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body {
+            font-family: 'century gothic';
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h1>Select, datalist and textarea</h1>
+        <p>
+            <label for="iest">Country: </label>
+            <select name="country" id="icou">
+                <option value="" disabled selected>Choose a country</option>
+                <optgroup label="Europe">
+                    <option value="FR">France</option>
+                    <option value="IT">Italy</option>
+                    <option value="US">Russia</option>
+                </optgroup>
+
+                <optgroup label="America">
+                    <option value="US">United States</option>
+                    <option value="MX">Mexico</option>
+                    <option value="BZ">Brazil</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="iprof">Profession: </label>
+            <input type="text" name="prof" id="iprof" list="ilprof">
+            <datalist id="ilprof">
+                <option>Developer</option>
+                <option>Driver</option>
+                <option>Cook</option>
+                <option>Seller</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="msg">Message: </label> <br>
+            <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Send">
+            <input type="reset" value="Clear">
+        </p>
+    </form>
+</body>
+</html>
