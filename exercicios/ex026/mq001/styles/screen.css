@@ -30,10 +30,5 @@ menu li {
     text-align: center;
     background-color: black;
     color: white;
-    display: flexbox;
-    justify-content: center;
-    align-content: center;
-    margin: 10px;
-    border-radius: 10px;
     padding: 10px;
 }
