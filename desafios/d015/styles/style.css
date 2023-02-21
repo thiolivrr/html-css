@@ -14,6 +14,7 @@ body {
 
 #move {
     padding: 10px;
+    text-align: center
 }
 
 main {
@@ -23,14 +24,10 @@ main {
     top: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    text-align: center;
     border-radius: 10px;
     box-shadow: 5px 1px 5px rgba(0, 0, 0, 0.308);
 }
 
-#login {
-    margin: 10px;
-}
 
 #back-img {
     background-image: url(../images/back1.gif);
@@ -44,7 +41,7 @@ main {
 
 .eap {
     border-radius: 6px;
-    margin: 10px 0px 10px 0px;
+    margin: 10px 0px 10px;
     height: 20px;
     text-indent: 10px;
 }

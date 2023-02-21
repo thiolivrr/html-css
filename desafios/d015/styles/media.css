@@ -3,7 +3,6 @@
 @media screen and (min-width: 768px) {
   main {
     width: 614.5px;
-    padding-bottom: 20px;
   }
 
   #back-img {
@@ -11,8 +10,16 @@
     display: inline-block;
     border-radius: 10px 0px 0px 10px;
     width: 145px;
-    height: 325px;
-    margin-bottom: -25px;
+    height: 355px;
+    margin-bottom: -35px;
+  }
+
+  h1 {
+    padding-top: 20px;
+  }
+
+  p {
+    margin: 15px 0px 15px 0px;
   }
 
   .eap {
@@ -26,10 +33,9 @@
 
   #move {
     width: 430px;
-    height: 276px;
     margin-left: 15px;
     display: inline-block;
-    padding: 10px;
+    margin-top: -20px;
   }
 
   #forgot {
@@ -40,7 +46,10 @@
 @media screen and (min-width: 922px) {
   main {
     width: 950px;
-    padding-bottom: 20px;
+  }
+
+  p {
+    margin: 15px 0px 15px 0px;
   }
 
   .eap {
@@ -49,6 +58,10 @@
 
   #back-img {
     display: none;
+  }
+  
+  h1 {
+    padding-top: 20px;
   }
 
   body {
@@ -59,11 +72,10 @@
     background-image: url(../images/bigback.jpg);
     background-size: cover;
     background-position: center;
-    width: 480px;
-    height: 340px;
+    width: 480.5px;
+    height: 360px;
     display: inline-block;
     border-radius: 0px 10px 10px 0px;
-    margin-right: -1px;
-    margin-bottom: -32px;
+    margin-bottom: -35px;
   }
 }
