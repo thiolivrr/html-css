@@ -12,13 +12,26 @@ body, html {
     padding: 0px;
 }
 
+#burguer {
+    background-color: darkgray;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+#burguer:hover {
+    background-color: white;
+    color: black;
+}
+
 header > h1 {
     padding: 10px;
     text-align: center;
 }
 
 nav {
-    display: block;
+    display: none;
 }
 
 nav > ul {
