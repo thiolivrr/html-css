@@ -41,6 +41,11 @@
   #forgot {
     margin-bottom: 0px;
   }
+
+  .subuttons {
+    width: 400px;
+    font-weight: bold;
+  }
 }
 
 @media screen and (min-width: 922px) {
@@ -77,5 +82,10 @@
     display: inline-block;
     border-radius: 0px 10px 10px 0px;
     margin-bottom: -35px;
+  }
+
+  .subuttons {
+    width: 400px;
+    font-weight: bold;
   }
 }
