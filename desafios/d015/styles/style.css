@@ -29,7 +29,6 @@ main {
     box-shadow: 5px 1px 5px rgba(0, 0, 0, 0.308);
 }
 
-
 #back-img {
     background-image: url(../images/back1.gif);
     background-size: cover;
@@ -55,6 +54,7 @@ main {
 
 .material-symbols-outlined {
     color: white;
+    transform: translateY(7px);
 }
 
 .subuttons {
