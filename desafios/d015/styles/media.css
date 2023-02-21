@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+  main {
+    width: 615px;
+  }
+
+  #back-img {
+    background-image: url(../images/back2.gif);
+    display: inline-block;
+    border-radius: 10px 0px 0px 10px;
+    width: 145px;
+    height: 300px;
+    margin-bottom: -11px;
+  }
+
+  body {
+    background-image: linear-gradient(to bottom, #3c1053, #ad5389);
+  }
+
+  #move {
+    width: 430px;
+    height: 276px;
+    margin-left: 15px;
+    display: inline-block;
+    padding: 10px;
+  }
+
+  .eap {
+    width: 300px;
+    height: 30px;
+  }
+
+  #forgot {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 922px) {
+  main {
+    width: 950px;
+  }
+
+  #back-img {
+    display: none;
+  }
+
+  body {
+    background-image: linear-gradient(to bottom, #654ea3, #eaafc8);
+  }
+
+  #back-img2 {
+    background-image: url(../images/bigback.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 480px;
+    height: 340px;
+    display: inline-block;
+    border-radius: 0px 10px 10px 0px;
+    margin-right: -1px;
+    margin-bottom: -12px;
+  }
+}
