@@ -11,12 +11,13 @@
     display: inline-block;
     border-radius: 10px 0px 0px 10px;
     width: 145px;
-    height: 320px;
-    margin-bottom: -32px;
+    height: 325px;
+    margin-bottom: -25px;
   }
 
   .eap {
-    width: 1500px;
+    width: 360px;
+    height: 30px;
   }
 
   body {
@@ -31,11 +32,6 @@
     padding: 10px;
   }
 
-  .eap {
-    width: 300px;
-    height: 30px;
-  }
-
   #forgot {
     margin-bottom: 0px;
   }
@@ -45,6 +41,10 @@
   main {
     width: 950px;
     padding-bottom: 20px;
+  }
+
+  .eap {
+    width: 360px;
   }
 
   #back-img {
