@@ -25,6 +25,10 @@ body, html {
     color: black;
 }
 
+header {
+    background-color: rgb(88, 86, 86);
+}
+
 header > h1 {
     padding: 10px;
     text-align: center;
